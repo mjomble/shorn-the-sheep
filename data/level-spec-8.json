@@ -1,0 +1,51 @@
+{
+  "matrixSpec": {
+    "size": {
+      "numRows": 5,
+      "numCols": 5
+    },
+    "entities": [
+      {
+        "type": "spaceship"
+      },
+      {
+        "type": "dog",
+        "dir": "up"
+      },
+      {
+        "type": "dog",
+        "dir": "down"
+      },
+      {
+        "type": "dog",
+        "dir": "left"
+      },
+      {
+        "type": "dog",
+        "dir": "right"
+      },
+      {
+        "type": "shearery"
+      },
+      {
+        "type": "wash"
+      },
+      {
+        "type": "scarrery"
+      },
+      {
+        "type": "chapel"
+      },
+      {
+        "type": "wolf"
+      }
+    ]
+  },
+  "spawnSpec": {
+    "numSheep": 50,
+    "numSpawns": 10
+  },
+  "description": "One of each entity type",
+  "startingEnergy": 10,
+  "energyRequired": 300
+}

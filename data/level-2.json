@@ -1,0 +1,80 @@
+{
+  "matrix":
+    [
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {
+          "type": "dog",
+          "dir": "left"
+        },
+        {},
+        {
+          "type": "dog",
+          "dir": "down"
+        },
+        {}
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {
+          "type": "spaceship"
+        },
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing the player's ability to switch the position of two tiles",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": 1,
+          "col": 5,
+          "dir": "left",
+          "count": 5
+        }
+    ],
+    "startingEnergy": 10,
+    "energyRequired": 40,
+    "dialog": [
+      {
+        "speaker": "alien-right",
+        "msg": "Hey, Blirg, look - I got another shope-doge!",
+        "side": "right"
+      },
+      {
+        "speaker": "alien-left",
+        "msg": "SHEEP-DOG!!",
+        "side": "left"
+      },
+      {
+        "speaker": "alien-right",
+        "msg": "What did you just call me?",
+        "side": "right"
+      },
+      {
+        "speaker": "none",
+        "msg": "You can change the location of dogs by first clicking on them and then on their new location. But be careful because this costs energy.",
+        "side": "center"
+      }
+    ]
+}

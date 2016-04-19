@@ -1,0 +1,82 @@
+{
+  "matrix":
+    [
+      [
+        {
+          "type": "spaceship"
+        },
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {
+          "type": "dog",
+          "dir": "up"
+        },
+        {},
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing the basic concepts of the game",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": 4,
+          "col": 5,
+          "dir": "left",
+          "count": 3
+        }
+    ],
+    "startingEnergy": 10,
+    "energyRequired": 20,
+    "dialog": [
+      {
+        "speaker": "alien-left",
+        "msg": "Glarf, our energy tank is dry as a Martini. We need more power to make it to the concert.",
+        "side": "left"
+      },
+      {
+        "speaker": "alien-right",
+        "msg": "What we need, Blirg, is a cheap alternative energy source - shope.",
+        "side": "right"
+      },
+      {
+        "speaker": "alien-left",
+        "msg": "Shope? I think you mean sheep.",
+        "side": "left"
+      },
+      {
+        "speaker": "alien-right",
+        "msg": "I'm pretty sure the plural is shope. Here - I programmed this shope-doge to direct the shope on to our shipe.",
+        "side": "right"
+      },
+      {
+        "speaker": "none",
+        "msg": "The sheep are teleported through a portal. The dog will redirect them.",
+        "side": "center"
+      }
+    ]
+}

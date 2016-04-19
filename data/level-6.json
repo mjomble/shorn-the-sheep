@@ -1,0 +1,85 @@
+{
+  "matrix":
+    [
+      [
+        {
+          "type": "spaceship"
+        },
+        {
+          "type": "dog",
+          "dir": "left"
+        },
+        {
+          "type": "scarrery"
+        },
+        {},
+        {
+          "type": "dog",
+          "dir": "down"
+        }
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {
+          "type": "dog",
+          "dir": "right"
+        },
+        {},
+        {
+          "type": "chapel"
+        },
+        {}
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "down"
+        }
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing..... scarreries and chapels!!!!",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": 0,
+          "col": 5,
+          "dir": "left",
+          "count": 20
+        }
+    ],
+    "startingEnergy": 10,
+    "energyRequired": 90,
+    "dialog": [
+      {
+        "speaker": "alien-left",
+        "msg": "These sheep look strange... And they're not giving us much power... Glarf, have you been \"probing\" the sheep?",
+        "side": "left"
+      },
+      {
+        "speaker": "alien-right",
+        "msg": "Why I never!",
+        "side": "right"
+      },
+      {
+        "speaker": "none",
+        "msg": "The meat museum emotionally scars sheep so they yield less energy. Send them through the chapel to undo the damage.",
+        "side": "center"
+      }
+    ]
+}

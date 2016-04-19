@@ -1,0 +1,74 @@
+{
+  "matrix":
+    [
+      [
+        {},
+        {
+          "type": "spaceship"
+        },
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "up"
+        }
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "left"
+        }
+      ],
+      [ {},
+        {},
+        {
+          "type": "shearery"
+        },
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing..... shearing stations!!!! note to self: leveli alguses pole piisavalt energiat, et levelit ilma shearing stationeid kasutamata läbida",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": 5,
+          "col": 4,
+          "dir": "up",
+          "count": 4
+        },
+        {
+          "turn": 16,
+          "row": 5,
+          "col": 3,
+          "dir": "up",
+          "count": 4
+        }
+    ],
+    "startingEnergy": 10,
+    "energyRequired": 90,
+    "dialog": [
+      {
+        "speaker": "none",
+        "msg": "You can send sheep through shearing stations. Shorn sheep yield more energy.",
+        "side": "center"
+      }
+    ]
+}

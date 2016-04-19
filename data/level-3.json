@@ -1,0 +1,93 @@
+{
+  "matrix":
+    [
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {
+          "type": "dog",
+          "dir": "down"
+        },
+        {
+          "type": "dog",
+          "dir": "down"
+        },
+        {
+          "type": "dog",
+          "dir": "right"
+        },
+        {},
+        {}
+      ],
+      [ {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "right"
+        },
+        {},
+        {
+          "type": "spaceship"
+        }
+      ],
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing waves",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": 0,
+          "col": -1,
+          "dir": "right",
+          "count": 10
+        },
+        {
+          "turn": 20,
+          "row": -1,
+          "col": 2,
+          "dir": "down",
+          "count": 5
+        }
+    ],
+    "startingEnergy": 10,
+    "energyRequired": 100,
+    "dialog": [
+      {
+        "speaker": "alien-left",
+        "msg": "More sheep! I'm not gonna miss the Grateful Dead because of this!",
+        "side": "left"
+      },
+      {
+        "speaker": "alien-right",
+        "msg": "I thought we were going to a Taylor Swift concert.",
+        "side": "right"
+      },
+      {
+        "speaker": "dog-left",
+        "msg": "Woof",
+        "side": "left"
+      },
+      {
+        "speaker": "none",
+        "msg": "Sheep come in waves from portals that appear in different locations.",
+        "side": "center"
+      }
+    ]
+}

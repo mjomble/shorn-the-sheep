@@ -1,0 +1,77 @@
+{
+  "matrix":
+    [
+      [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {
+          "type": "dog",
+          "dir": "left"
+        },
+        {},
+        {},
+        {}
+      ],
+      [ {},
+        {
+          "type": "wolf"
+        },
+        {},
+        {
+          "type": "dog",
+          "dir": "right"
+        },
+        {}
+      ],
+      [
+        {},
+        {},
+        {
+          "type": "spaceship"
+        },
+        {},
+        {}
+      ],
+      [
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "down"
+        },
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing handling multiple waves at the same time!!!!!",
+    "spawns": [
+        {
+          "turn": 6,
+          "row": -1,
+          "col": 1,
+          "dir": "down",
+          "count": 15
+        },
+        {
+          "turn": 6,
+          "row": -1,
+          "col": 4,
+          "dir": "down",
+          "count": 15
+        }
+    ],
+    "startingEnergy": 20,
+    "energyRequired": 160,
+    "dialog": [
+      {
+        "speaker": "none",
+        "msg": "Sheep can come from different portals at the same time.",
+        "side": "center"
+      }
+    ]
+}

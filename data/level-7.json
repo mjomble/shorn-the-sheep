@@ -1,0 +1,86 @@
+{
+  "matrix":
+    [
+      [
+        {},
+        {},
+        {},
+        {
+          "type": "dog",
+          "dir": "left"
+        },
+        {}
+      ],
+      [ {
+        "type": "dog",
+        "dir": "up"
+      },
+        {},
+        {
+          "type": "dog",
+          "dir": "right"
+        },
+        {
+          "type": "dog",
+          "dir": "down"
+        },
+        {}
+      ],
+      [ {},
+        {
+          "type": "wolf"
+        },
+        {},
+        {
+          "type": "dog",
+          "dir": "down"
+        },
+        {}
+      ],
+      [
+        {},
+        {
+          "type": "spaceship"
+        },
+        {
+          "type": "wolf"
+        },
+        {},
+        {}
+      ],
+      [
+        {
+          "type": "dog",
+          "dir": "up"
+        },
+        {},
+        {},
+        {},
+        {}
+      ]
+    ],
+    "description": "introducing..... WOLVES!!!!",
+    "spawns": [
+        {
+          "turn": 5,
+          "row": -1,
+          "col": 1,
+          "dir": "down",
+          "count": 15
+        }
+    ],
+    "startingEnergy": 15,
+    "energyRequired": 100,
+    "dialog": [
+      {
+        "speaker": "sheep-left",
+        "msg": "BAAAAAAHHH!!",
+        "side": "left"
+      },
+      {
+        "speaker": "none",
+        "msg": "Wolves kill sheep. Wolves cannot be shifted.",
+        "side": "center"
+      }
+    ]
+}

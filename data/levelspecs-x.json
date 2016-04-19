@@ -1,0 +1,13 @@
+{
+  "matrixSpec":{
+    "size": {
+      "rows": 5,
+      "cols": 5
+    },
+    "entities": ["spaceship", "shearery", "shearery", "dog"]
+  },
+  "spawnSpec": {
+    "sheepCount": 17,
+    "spawnCount": 3
+  }
+}

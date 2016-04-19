@@ -1,0 +1,22 @@
+{
+  "spaceship": {},
+  "grass": {
+    "shiftEnergy": 0
+  },
+  "dog": {
+    "shiftEnergy": 5
+  },
+  "shearery": {
+    "shiftEnergy": 10
+  },
+  "wash": {
+    "shiftEnergy": 25
+  },
+  "scarrery": {
+    "shiftEnergy": 30
+  },
+  "chapel": {
+    "shiftEnergy": 15
+  },
+  "wolf": {}
+}

@@ -1,0 +1,24 @@
+{
+  "matrixSpec": {
+    "size": {
+      "numRows": 3,
+      "numCols": 3
+    },
+    "entities": [
+      {
+        "type": "dog",
+        "dir": "up"
+      },
+      {
+        "type": "spaceship"
+      }
+    ]
+  },
+  "spawnSpec": {
+    "numSheep": 15,
+    "numSpawns": 3
+  },
+  "description": "Testing the level generator",
+  "startingEnergy": 20,
+  "energyRequired": 50
+}
